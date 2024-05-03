@@ -28,6 +28,8 @@ public class ImageSheet extends BottomSheetDialogFragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+
+
         ImageView imageView = view.findViewById(R.id.sheetImageView);
         imageView.setImageBitmap(bitmap);
 
