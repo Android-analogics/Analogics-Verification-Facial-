@@ -17,6 +17,7 @@ public class ImageSheet extends BottomSheetDialogFragment {
 
     public ImageSheet(Bitmap bitmap) {
         this.bitmap = bitmap;
+
     }
 
     @Nullable
